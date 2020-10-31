@@ -10,7 +10,8 @@ namespace OpacityBindingCode
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+            MainPage = new OpacityBindingCodePage();
         }
 
         protected override void OnStart()
