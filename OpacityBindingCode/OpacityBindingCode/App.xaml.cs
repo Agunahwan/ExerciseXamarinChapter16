@@ -13,7 +13,8 @@ namespace OpacityBindingCode
             //MainPage = new MainPage();
             //MainPage = new OpacityBindingCodePage();
             //MainPage = new OpacityBindingXamlPage();
-            MainPage = new BindingSourceCodePage();
+            //MainPage = new BindingSourceCodePage();
+            MainPage = new BindingSourceXamlPage();
         }
 
         protected override void OnStart()
