@@ -16,7 +16,8 @@ namespace OpacityBindingCode
             //MainPage = new BindingSourceCodePage();
             //MainPage = new BindingSourceXamlPage();
             //MainPage = new WebViewDemoPage();
-            MainPage = new BindingModesPage();
+            //MainPage = new BindingModesPage();
+            MainPage = new ReverseBindingPage();
         }
 
         protected override void OnStart()
